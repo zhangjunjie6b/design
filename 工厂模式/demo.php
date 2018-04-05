@@ -11,7 +11,8 @@
  * 约定一个抽象类
  * Interface operate
  */
-interface operate{
+interface operate
+{
     public function getResult($number1,$number2);
 }
 
@@ -19,7 +20,8 @@ interface operate{
  * 加法计算
  * Class addOperate
  */
-class addOperate implements operate{
+class addOperate implements operate
+{
     public function getResult($number1, $number2)
     {
         return $number1 + $number2;
