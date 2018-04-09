@@ -45,7 +45,7 @@ class lessOperate implements operate
  * 乘法计算
  * Class multiplication
  */
-class multiplicationOperate implements operate
+class multiplication implements operate
 {
     public function getResult($number1, $number2)
     {
@@ -57,7 +57,7 @@ class multiplicationOperate implements operate
  * 除法计算
  * Class division
  */
-class divisionOperate implements operate
+class division implements operate
 {
 
     private $number1; //被除数
@@ -87,7 +87,7 @@ class divisionOperate implements operate
         $this->number2 = $number2;
 
         if($this->rule() !== false){
-            return $number1/$number2;
+         return $number1/$number2;
         }else{
             return '逻辑错误';
         }
@@ -96,8 +96,39 @@ class divisionOperate implements operate
 
 }
 
+/**
+ * 工厂类调度方法
+ * Class factory
+ */
+class factory
+{
+    public static function createOperate($operate)
+    {
+        switch ($operate){
+            case '+' :
+                $oper = new addOperate();
+                break;
 
+            case '-' :
+                $oper = new lessOperate();
+                break;
 
-$operate = new divisionOperate();
+            case '*' :
+                $oper = new multiplication();
+                break;
+
+            case '/' :
+                $oper = new division();
+                break;
+            default :
+                return false;
+                break;
+        }
+        return $oper;
+
+    }
+}
+
+$operate = factory::createOperate('/');
 $result = $operate->getResult(6,3);
 echo $result . "\n";
