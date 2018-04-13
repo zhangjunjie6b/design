@@ -120,13 +120,6 @@
 - [ ] 建造者模式
 
 
-
-
-
-# 行为型模式
-
-- [x]  [策略模式][3]
-
 # 结构型模式
 
 - [x] [装饰器模式][7]
@@ -147,6 +140,10 @@
 
 # 行为型模式
 
+- [x] [策略模式][3]
+
+- [x] [模板模式][8]
+
 - [ ] [责任链模式]
 
 - [ ] [命令模式]
@@ -165,13 +162,7 @@
 
 - [ ] [空对象模式]
 
-- [ ] [策略模式]
-
-- [ ] [模板模式]
-
 - [ ] [访问者模式]
-
-# 结构型模式
 
   [1]: http://pic.geekstool.com/markdown/WX20180404-151355@2x.png
   [2]: http://pic.geekstool.com/markdown/WX20180404-153334@2x.png
@@ -180,3 +171,4 @@
   [5]: https://github.com/526353781/design/tree/master/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F "工厂模式"
   [6]: https://github.com/526353781/design/tree/master/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F "原型模式"
   [7]: https://github.com/526353781/design/tree/master/%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F "装饰模式"
+  [8]: https://github.com/526353781/design/tree/master/%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F "装饰模式"
