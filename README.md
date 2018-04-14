@@ -124,6 +124,8 @@
 
 - [x] [装饰器模式][7]
 
+- [ ] [外观模式][9]
+
 - [ ] [适配器模式]
 
 - [ ] [桥接模式]
@@ -131,8 +133,6 @@
 - [ ] [过滤器模式]
 
 - [ ] [组合模式]
-
-- [ ] [外观模式]
 
 - [ ] [享元模式]
 
@@ -172,3 +172,4 @@
   [6]: https://github.com/526353781/design/tree/master/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F "原型模式"
   [7]: https://github.com/526353781/design/tree/master/%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F "装饰模式"
   [8]: https://github.com/526353781/design/tree/master/%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F "装饰模式"
+  [9]: https://github.com/526353781/design/blob/master/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F "外观模式"
