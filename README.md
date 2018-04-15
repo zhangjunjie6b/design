@@ -113,11 +113,11 @@
 
 - [x]  [原型模式][6]
 
+- [x] 建造者模式[10]
+
 - [ ] 抽象工厂
 
 - [ ] 单列模式
-
-- [ ] 建造者模式
 
 
 # 结构型模式
@@ -173,3 +173,4 @@
   [7]: https://github.com/526353781/design/tree/master/%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F "装饰模式"
   [8]: https://github.com/526353781/design/tree/master/%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F "装饰模式"
   [9]: https://github.com/526353781/design/blob/master/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F "外观模式"
+  [10]:https://github.com/526353781/design/blob/master/建造者模式/ "建造者模式"
