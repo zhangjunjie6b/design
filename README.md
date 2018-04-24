@@ -174,5 +174,5 @@
   [8]: https://github.com/526353781/design/tree/master/%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F "装饰模式"
   [9]: https://github.com/526353781/design/blob/master/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F "外观模式"
   [10]:https://github.com/526353781/design/blob/master/建造者模式/ "建造者模式"
-  [11]:https://github.com/526353781/design/blob/master/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F/README.md
-  [12]:https://github.com/526353781/design/blob/master/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/README.md
+  [11]:https://github.com/526353781/design/blob/master/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F "状态模式"
+  [12]:https://github.com/526353781/design/blob/master/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F "抽象工厂模式"
