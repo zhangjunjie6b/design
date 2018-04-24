@@ -97,7 +97,49 @@ class divisionOperate implements operate
 }
 
 
+/**
+ * 抽象工厂方法
+ * Interface createOperation
+ */
+interface create
+{
+    function createOperation();
+}
 
-$operate = new divisionOperate();
-$result = $operate->getResult(6,3);
-echo $result . "\n";
+class add implements  create
+{
+    function createOperation()
+    {
+        return new addOperate();
+    }
+}
+
+class less implements  create
+{
+    function createOperation()
+    {
+        return new lessOperate();
+    }
+}
+
+class multiplication implements  create
+{
+    function createOperation()
+    {
+        return new multiplicationOperate();
+    }
+}
+
+class division implements  create
+{
+    function createOperation()
+    {
+        return new divisionOperate();
+    }
+}
+
+
+$operate = new division();
+$result = $operate->createOperation();
+$date = $result->getResult(6,3);
+echo $date . "\n";
